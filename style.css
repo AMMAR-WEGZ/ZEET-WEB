@@ -220,7 +220,7 @@ header h1{
 
 
 .imgg{
-    width: 320px;
+    width: 200px;
 }
 .cont-text{
     width: webkit-fill-available;
@@ -236,16 +236,16 @@ header h1{
 
 
     .s-img,.sa-img{
-        width: 450px;
+        width: 200px;
         height: auto;
     }
     #a-cont .s-img{
-        width: 450px;
+        width: 200px;
         height: auto;
     }
     .a-cont,.sa-cont,#a-cont{
         width: -webkit-fill-available;
-        border: 1 solid black;
+        /* border: 1 solid black; */
         padding: 10px 0px;
               
     }
@@ -257,12 +257,13 @@ header h1{
 @media (max-width:567px) {
  header, .review, .content{
     padding: 0;
-    width: 567px;
+    width: -webkit-fill-available;
     margin: 0;
  }   
  .a-cont,.sa-cont,#a-cont{
     margin-left: 120px;
     padding: 10px 0px;
+    margin-right: auto;
     
 } 
 }
